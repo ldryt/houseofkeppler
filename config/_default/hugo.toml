@@ -46,3 +46,7 @@ path = "github.com/nicokaiser/hugo-theme-gallery/v4"
 name = "Contact"
 url = "/about"
 weight = 3
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
