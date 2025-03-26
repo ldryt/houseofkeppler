@@ -1,0 +1,48 @@
+copyright = "© Nastja Keppler"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+languageCode = "en"
+timeZone = "Europe/Vilnius"
+timeout = "120s"
+title = "House Of Keppler"
+
+[params]
+defaultTheme = "light"
+description = "TODO3"
+title = "TODO4"
+[params.author]
+email = "keppler.work.study@gmail.com"
+name = "Nastja Keppler"
+[params.socialIcons]
+instagram = "https://www.instagram.com/houseofkeppler/"
+email = "mailto:keppler.work.study@gmail.com"
+[params.gallery]
+#boxSpacing = 10
+#targetRowHeight = 288
+#targetRowHeightTolerance = 0.25
+
+[outputs]
+home = ["HTML"]
+page = ["HTML"]
+section = ["HTML"]
+
+[imaging]
+quality = 90
+resampleFilter = "Lanczos"
+[imaging.exif]
+disableDate = false
+disableLatLong = true
+includeFields = "Orientation"
+
+[module]
+[module.hugoVersion]
+min = "0.121.2"
+[[module.imports]]
+path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+[menu]
+[[menu.footer]]
+name = "Contact"
+url = "/about"
+weight = 3
